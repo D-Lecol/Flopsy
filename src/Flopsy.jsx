@@ -1,3 +1,5 @@
+import Logo from './Logo.jsx';
+
 export default function Flopsy() {
   function initTycoonControls() {
     // Toggle Grid simulation visual
@@ -53,25 +55,8 @@ export default function Flopsy() {
     <div className="bg-surface font-body-md text-on-surface antialiased select-none">
       <header className="fixed top-0 inset-x-0 h-16 z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
         <div className="h-16 w-full px-gutter-desktop flex items-center justify-between gap-space-md">
-          <div className="flex items-center gap-space-md">
-            <div className="flex items-center gap-space-xs">
-              <span className="w-2.5 h-2.5 rounded-full bg-primary inline-block"></span>
-              <span className="font-headline-sm text-headline-sm uppercase tracking-tight text-on-surface">
-                FLØPSY
-              </span>
-              <span className="font-label-sm text-label-sm text-on-surface-variant">
-                // Tycoon Énergétique IA
-              </span>
-            </div>
-            <div className="h-4 w-px bg-surface-container-high"></div>
-            <div className="flex items-center gap-space-xs px-space-sm py-space-xs rounded bg-surface-container">
-              <span className="font-label-sm text-label-sm font-semibold text-on-surface">
-                Année 2034
-              </span>
-              <span className="font-label-sm text-label-sm text-on-surface-variant">
-                • Cycle 12
-              </span>
-            </div>
+          <div className="flex items-start gap-space-md">
+            <Logo />
           </div>
           <div className="flex items-center gap-space-md">
             <div className="flex items-center p-space-xs rounded bg-surface-container">
