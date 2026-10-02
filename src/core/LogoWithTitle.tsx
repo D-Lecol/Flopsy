@@ -1,4 +1,4 @@
-export default function Logo() {
+export default function LogoWithTitle() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -180,19 +180,6 @@ export default function Logo() {
           fill="#5c6479"
         >
           GRID • COMPUTE • RESOURCES
-        </text>
-
-        <circle cx="395" cy="116" r="4" fill="#0f9f75" />
-        <text
-          x="406"
-          y="120"
-          font-family="'Space Grotesk', monospace"
-          font-size="10"
-          font-weight="700"
-          letter-spacing="1"
-          fill="#0f9f75"
-        >
-          ONLINE
         </text>
       </g>
     </svg>
