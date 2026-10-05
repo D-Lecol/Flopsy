@@ -34,3 +34,13 @@ To learn more about Rsbuild, check out the following resources:
 
 - [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
 - [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+
+## License
+
+Copyright (c) 2026 Alves Colin. All rights reserved.
+
+This project is source-visible only. You may not copy, modify, distribute
+or use this code without explicit written permission. See the
+[LICENSE](./LICENSE) file for details.
+
+For any request, contact: alves.colin@icloud.com
