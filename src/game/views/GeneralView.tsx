@@ -1,3 +1,5 @@
+import GameMap from '../map/GameMap.js';
+
 export default function GeneralView() {
   return (
     <div className="flex flex-col w-full">
@@ -177,11 +179,9 @@ export default function GeneralView() {
           </article>
         </header>
         <section className="relative w-full rounded-xl overflow-hidden shadow-xl bg-surface-container-low min-h-[640px] flex flex-col justify-between">
-          <img
-            alt="Simulation Tycoon Isométrique : Vue aérienne avec centrale nucléaire, datacenter d'IA et réseau de pylônes haute-tension"
-            className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none select-none"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-ScVgDyWA-nwHsEXI4-duHfZBViRuW7hcxO0yRDlxfrOFbumMOpXgHtYSLN-SAugtxtSha_FX-v2DsrrjjIJJurxy9mELRHvr397FbgHJ160VWUJRdm_qcACQmjrmQl_ibpR1bRvVUfI0nSv2_16vAVTwLsEndTY-JpjFWGjszG9tgooYg0d36CHGiqluU_fHwxgee0K7b5HP_Gqs6OnqNXtXpRReOz2uD-MUd5J7-l5F0Zd2hpq0"
-          />
+          <div className="absolute inset-0">
+            <GameMap />
+          </div>
           <div className="absolute inset-0 bg-gradient-to-t from-surface-dim/40 via-transparent to-surface-container-lowest/20 pointer-events-none"></div>
           <div className="relative z-20 p-space-md flex items-center justify-between gap-space-md flex-wrap">
             <div className="flex items-center gap-1 p-1 bg-surface-container-lowest/95 backdrop-blur-md rounded shadow-md">
