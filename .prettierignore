@@ -5,3 +5,6 @@ yarn.lock
 
 # Skills lock
 skills-lock.json
+
+# Coverage
+coverage

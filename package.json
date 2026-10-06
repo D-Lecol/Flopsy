@@ -8,6 +8,7 @@
     "dev": "rsbuild",
     "test": "vitest run",
     "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "format": "prettier --write .",
     "lint": "eslint .",
     "preview": "rsbuild preview"
@@ -26,6 +27,7 @@
     "@rsbuild/plugin-react": "^2.1.1",
     "@rsbuild/plugin-tailwindcss": "^2.0.3",
     "@types/three": "^0.186.0",
+    "@vitest/coverage-v8": "^5.0.3",
     "eslint": "^10.9.1",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.5",
