@@ -3,9 +3,12 @@ import { MAP_SIZE } from '../config.js';
 import type { Disposable, FrameUpdatable, Renderer } from '../contracts.js';
 import { CameraController } from '../controls/CameraController.js';
 import { GroundPicker } from '../controls/GroundPicker.js';
-import { KeyboardInput, type ShortcutActions } from '../controls/KeyboardInput.js';
+import {
+  KeyboardInput,
+  type ShortcutActions,
+} from '../controls/KeyboardInput.js';
 import { KeyboardPanning } from '../controls/KeyboardPanning.js';
-import { PointerInput, type PointerActions } from '../controls/PointerInput.js';
+import { type PointerActions, PointerInput } from '../controls/PointerInput.js';
 import type { GameState } from '../domain/GameState.js';
 import { createLights } from '../render/stage.js';
 import { PlacementController } from '../tools/PlacementController.js';
@@ -13,7 +16,11 @@ import type { ToolId } from '../tools/Tool.js';
 import { createToolBox } from '../tools/ToolBox.js';
 import { Emitter } from '../util/Emitter.js';
 import { assembleMap, placeStartingBuildings } from './assembleMap.js';
-import { browserPlatform, ElementViewport, type EnginePlatform } from './browser.js';
+import {
+  browserPlatform,
+  ElementViewport,
+  type EnginePlatform,
+} from './browser.js';
 import { connectObservers } from './connectObservers.js';
 import { FrameClock } from './FrameClock.js';
 
@@ -24,6 +31,8 @@ export interface EngineEvents {
 /** Ce que l'interface (React ou autre) peut demander au moteur. */
 export interface MapEngine extends Disposable {
   setTool(id: ToolId | null): void;
+  rotateView(direction: 1 | -1): void;
+  zoomBy(factor: number): void;
 }
 
 const MAX_PIXEL_RATIO = 2;
@@ -47,17 +56,29 @@ export class IsoMapEngine implements MapEngine {
     this.renderer = platform.createRenderer(host);
     this.camera = new CameraController(new ElementViewport(host), MAP_SIZE);
     const map = assembleMap(state);
-    this.scene.add(...createLights(), ...map.layers.map((layer) => layer.group));
+    this.scene.add(
+      ...createLights(),
+      ...map.layers.map((layer) => layer.group),
+    );
     const stopObserving = connectObservers(state.events, map.observers);
     placeStartingBuildings(state);
 
-    const picker = new GroundPicker(this.renderer.domElement, this.camera.camera);
+    const picker = new GroundPicker(
+      this.renderer.domElement,
+      this.camera.camera,
+    );
     const tools = createToolBox(map.world, state);
     this.placement = new PlacementController(picker, map.ghost, tools, (id) =>
       this.events.emit('toolChange', id),
     );
-    const keyboard = new KeyboardInput(this.shortcutActions(), platform.keyboardTarget);
-    const pointer = new PointerInput(this.renderer.domElement, this.pointerActions());
+    const keyboard = new KeyboardInput(
+      this.shortcutActions(),
+      platform.keyboardTarget,
+    );
+    const pointer = new PointerInput(
+      this.renderer.domElement,
+      this.pointerActions(),
+    );
 
     this.updatables = [
       new KeyboardPanning(keyboard, this.camera),
@@ -102,7 +123,9 @@ export class IsoMapEngine implements MapEngine {
   }
 
   private resizeCanvas(): void {
-    this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, MAX_PIXEL_RATIO));
+    this.renderer.setPixelRatio(
+      Math.min(window.devicePixelRatio, MAX_PIXEL_RATIO),
+    );
     this.renderer.setSize(this.host.clientWidth, this.host.clientHeight, false);
   }
 

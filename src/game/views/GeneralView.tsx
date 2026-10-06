@@ -1,6 +1,11 @@
-import GameMap from '../map/GameMap.js';
+import MapControls from '../components/MapControls.js';
+import { useState } from 'react';
+import { GameState, IsoMap, type MapEngine } from '../iso/index.js';
 
 export default function GeneralView() {
+  const [state] = useState(() => new GameState());
+  const [engine, setEngine] = useState<MapEngine | null>(null);
+
   return (
     <div className="flex flex-col w-full">
       <div className="relative w-full overflow-hidden p-space-md flex flex-col gap-space-md">
@@ -180,71 +185,11 @@ export default function GeneralView() {
         </header>
         <section className="relative w-full rounded-xl overflow-hidden shadow-xl bg-surface-container-low min-h-[640px] flex flex-col justify-between">
           <div className="absolute inset-0">
-            <GameMap />
+            <IsoMap state={state} onEngine={setEngine} tool={null} />
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-surface-dim/40 via-transparent to-surface-container-lowest/20 pointer-events-none"></div>
           <div className="relative z-20 p-space-md flex items-center justify-between gap-space-md flex-wrap">
-            <div className="flex items-center gap-1 p-1 bg-surface-container-lowest/95 backdrop-blur-md rounded shadow-md">
-              <button
-                className="px-space-sm py-1 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold flex items-center gap-1 transition-transform active:translate-y-0.5"
-                title="Vue Isométrique Axonométrique 45°"
-                type="button"
-              >
-                <span className="material-symbols-outlined text-[16px]">
-                  view_in_ar
-                </span>
-                ISO 45°
-              </button>
-              <button
-                className="w-7 h-7 rounded hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors"
-                title="Rotation 90 Degrés"
-                type="button"
-              >
-                <span className="material-symbols-outlined text-[18px]">
-                  rotate_right
-                </span>
-              </button>
-              <button
-                className="px-space-xs py-1 rounded hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm flex items-center gap-1 transition-colors"
-                id="gridToggle"
-                title="Afficher/Masquer Grille Topologique"
-                type="button"
-              >
-                <span className="material-symbols-outlined text-[16px]">
-                  grid_4x4
-                </span>
-                GRILLE
-              </button>
-              <div className="h-3 w-px bg-surface-container-high mx-0.5"></div>
-              <button
-                className="w-7 h-7 rounded hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface"
-                title="Zoom In"
-                type="button"
-              >
-                <span className="material-symbols-outlined text-[18px]">
-                  add
-                </span>
-              </button>
-              <button
-                className="w-7 h-7 rounded hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface"
-                title="Zoom Out"
-                type="button"
-              >
-                <span className="material-symbols-outlined text-[18px]">
-                  remove
-                </span>
-              </button>
-            </div>
-            <div className="hidden lg:flex items-center gap-space-sm px-space-md py-1.5 rounded bg-surface-container-lowest/90 backdrop-blur-md shadow-sm">
-              <span className="material-symbols-outlined text-primary text-[18px]">
-                warning
-              </span>
-              <span className="font-label-sm text-label-sm text-on-surface">
-                <strong>PIC TARIFAIRE 18H-20H :</strong> Énergie réseau spot à{' '}
-                <strong>142€/MWh</strong>. Bascule suggérée sur batteries
-                locales.
-              </span>
-            </div>
+            <MapControls engine={engine} />
             <div className="flex items-center gap-space-xs px-space-sm py-1 rounded bg-surface-container-lowest/90 backdrop-blur-md font-label-sm text-label-sm text-on-surface-variant">
               <span>PARCELLE [X:14 / Y:09]</span>
               <span className="w-1.5 h-1.5 rounded-full bg-secondary"></span>
