@@ -1,6 +1,6 @@
 # 2. Logique du jeu
 
-[← Vision](01-vision.md) · [Sommaire](README.md) · [Données →](03-donnees.md)
+[← Vision](01-vision.md) · [Sommaire](../../../../Downloads/flopsy-maj-docs-data%202/docs/README.md) · [Données →](../../../../Downloads/flopsy-maj-docs-data%202/docs/03-donnees.md)
 
 ## Sommaire du chapitre
 
@@ -49,8 +49,8 @@ générative qui ne cesse de croître (habitants, entreprises, outils du quotidi
 | Phase 2 (surconsommation)       | Jusqu'à la fin de la partie, soit 7 à 10 min |
 | Durée totale visée              | 10 à 15 min                                  |
 
-L'année de départ peut être 2023 : l'adoption suit alors une courbe proche de la réalité, avec environ 48 % des Français
-utilisateurs en 2026 d'après le Baromètre du numérique.
+L'année de départ peut être 2023 : l'adoption suit alors une courbe proche de la réalité, avec 48 % des Français de 12
+ans et plus utilisateurs mi-2025 d'après le Baromètre du numérique (édition 2026).
 
 ## 2.4 Unités
 
@@ -69,7 +69,8 @@ utilisateurs en 2026 d'après le Baromètre du numérique.
 demande (PFLOP/s) = population × taux d'adoption × intensité d'usage × calcul par utilisateur
 ```
 
-Le *calcul par utilisateur* est calibré à partir des données ouvertes (voir [Données](03-donnees.md)).
+Le *calcul par utilisateur* est calibré à partir des données ouvertes
+(voir [Données](../../../../Downloads/flopsy-maj-docs-data%202/docs/03-donnees.md)).
 
 ## 2.5 Éléments du jeu
 
@@ -147,14 +148,18 @@ de cette phase : construire toujours plus ne suffit plus.
 
 ## 2.8 Cartes-requêtes et événements
 
-**Cartes-requêtes.** À intervalle régulier, une carte apparaît : une vraie demande tirée de Compar:IA, réécrite pour le
-jeu. Par exemple : *« Un habitant demande à l'IA de générer 40 versions d'un même logo. »* Le joueur choisit :
+**Cartes-requêtes.** À intervalle régulier, une carte apparaît : une vraie demande tirée des prompts suggérés par
+Compar:IA, réécrite pour le jeu. Par exemple : *« Un habitant demande une histoire sans la lettre « e », pour
+s'amuser. »*
+(voir [chapitre 3, § 3.2 A](../../../../Downloads/flopsy-maj-docs-data%202/docs/03-donnees.md#a-les-prompts-suggérés--la-source-des-cartes-requêtes)).
+Le
+joueur choisit :
 
 - **Accepter** : la demande augmente un peu et la confiance monte un peu ;
 - **Refuser** : la demande reste stable, et l'effet sur la confiance dépend de l'utilité de la requête.
 
-Les cartes sont tirées en fonction des catégories d'usage réelles de Compar:IA. Chaque carte affiche sa catégorie et une
-fourchette d'énergie.
+Les cartes sont tirées en fonction des catégories d'usage réelles de Compar:IA. Chaque carte est classée « utile » ou
+« confort » et affiche une fourchette d'énergie.
 
 **Événements inspirés du réel :**
 

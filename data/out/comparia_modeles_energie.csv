@@ -1,0 +1,155 @@
+modele,organisation,taille,params_milliards,params_actifs_milliards,raisonnement,actif_sur_comparia,wh_par_million_tokens,wh_pour_500_tokens
+lfm2-8b-a1b,Liquid,XS,8,1.5,False,False,80.7,0.0403
+gemma-2-2b-it,Google,XS,2,,False,False,81.9,0.0409
+lfm2-24b-a2b,Liquid,S,24,2.3,False,True,81.9,0.0409
+gpt-oss-20b,OpenAI,S,21,3.6,True,True,83.1,0.0415
+phi-3-mini-4k,Microsoft,XS,3.8,,False,False,83.1,0.0415
+phi-3.5-mini-instruct,Microsoft,XS,3.8,,False,False,83.1,0.0415
+qwen3-30b-a3b,Alibaba,S,30,3.3,False,False,83.1,0.0415
+gemma-3-4b,Google,XS,4,,False,False,84.3,0.0421
+gemma-3n-e4b-it,Google,XS,8,4,False,False,84.3,0.0421
+gemma-4-26b-a4b-it,Google,S,26,4,True,True,84.3,0.0421
+gpt-5-nano,OpenAI,XS,11,4,False,False,84.3,0.0421
+gpt-5.4-nano,OpenAI,XS,11,4,True,False,84.3,0.0421
+chocolatine-2-14b-instruct-v2.0.3-q8,jpacifico,XS,14,,False,False,87.9,0.044
+Phi-3-small-8k-Instruct,Microsoft,XS,7,,False,False,87.9,0.044
+qwen2-7b-instruct,Alibaba,XS,7,,False,False,87.9,0.044
+qwen2.5-7b-instruct,Alibaba,XS,7,,False,False,87.9,0.044
+Apertus-8B-Instruct-2509,Swiss AI,XS,8,,False,False,89.2,0.0446
+apertus-v1-5-8b,Swiss AI,XS,8,,True,True,89.2,0.0446
+aya-23-8b,Cohere,XS,8,,False,False,89.2,0.0446
+aya-expanse-8b,Cohere,XS,8,,False,False,89.2,0.0446
+granite-4.1-8b,IBM,XS,8,,False,True,89.2,0.0446
+llama-3.1-8b,Meta,XS,8,,False,False,89.2,0.0446
+Meta-Llama-3-8B-Instruct,Meta,XS,8,,False,False,89.2,0.0446
+ministral-8b-instruct-2410,Mistral AI,XS,8,,False,False,89.2,0.0446
+qwen-3-8b,Alibaba,XS,8,,False,False,89.2,0.0446
+gemma-2-9b-it,Google,XS,9,,False,False,90.4,0.0452
+Yi-1.5-9B-Chat,01-ai,XS,9,,False,False,90.4,0.0452
+gemma-3-12b,Google,XS,12,,False,False,94.0,0.047
+mistral-nemo-2407,Mistral AI,XS,12,,False,False,94.0,0.047
+chocolatine-14b-instruct-dpo-v1.2,jpacifico,XS,14,,False,False,96.4,0.0482
+chocolatine-14b-instruct-dpo-v1.2-q4,jpacifico,XS,14,,False,False,96.4,0.0482
+chocolatine-2-14b-instruct-v2.0.3,jpacifico,XS,14,,False,False,96.4,0.0482
+phi-4,Microsoft,XS,14,,False,False,96.4,0.0482
+gpt-4o-mini-2024-07-18,OpenAI,S,18,,False,False,101.3,0.0506
+o3-mini,OpenAI,S,18,,True,False,101.3,0.0506
+o4-mini,OpenAI,S,18,,True,False,101.3,0.0506
+EuroLLM-22B-Instruct-2512,EuroLLM,S,22,,False,True,106.1,0.0531
+gpt-4.1-nano,OpenAI,S,23,,False,False,107.4,0.0537
+magistral-small-2506,Mistral AI,S,24,,False,False,108.6,0.0543
+mistral-saba,Mistral AI,S,24,,False,False,108.6,0.0543
+mistral-small-24b-instruct-2501,Mistral AI,S,24,,False,False,108.6,0.0543
+mistral-small-2506,Mistral AI,S,24,,False,False,108.6,0.0543
+mistral-small-3.1-24b,Mistral AI,S,24,,False,False,108.6,0.0543
+mistral-small-3.2-24b,Mistral AI,S,24,,False,False,108.6,0.0543
+gemma-2-27b-it,Google,S,27,,False,False,112.2,0.0561
+gemma-2-27b-it-q8,Google,S,27,,False,False,112.2,0.0561
+gemma-3-27b,Google,S,27,,False,False,112.2,0.0561
+gemma-4-31b-it,Google,S,31,,True,True,117.1,0.0585
+aya-expanse-32b,Cohere,S,32,,False,False,118.3,0.0591
+olmo-2-0325-32b,Ai2,S,32,,False,False,118.3,0.0591
+olmo-3-32b-think,Ai2,S,32,,True,False,118.3,0.0591
+Qwen1.5-32B-Chat,Alibaba,S,32,,False,False,118.3,0.0591
+qwen2.5-32b-instruct,Alibaba,S,32,,False,False,118.3,0.0591
+qwen2.5-coder-32b-instruct,Alibaba,S,32,,False,False,118.3,0.0591
+qwen3-32b,Alibaba,S,32,,True,False,118.3,0.0591
+qwq-32b,Alibaba,S,32,,True,False,118.3,0.0591
+qwen3.5-35b-a3b,Alibaba,S,35,3,True,True,166.2,0.0831
+lfm-40b,Liquid,S,40,12,False,False,188.0,0.094
+mixtral-8x7b-instruct-v0.1,Mistral AI,S,56,14,False,False,192.9,0.0964
+Qwen2-57B-A14B-Instruct,Alibaba,S,57,14,False,False,192.9,0.0964
+gpt-5-mini,OpenAI,S,47,16,False,False,197.7,0.0989
+gpt-5.4-mini,OpenAI,S,47,16,True,False,197.7,0.0989
+Aya23-35B,Cohere,S,35,,False,False,243.8,0.1219
+c4ai-command-r-08-2024,Cohere,S,35,,False,False,243.8,0.1219
+gpt-3.5-turbo-0301,OpenAI,S,55,,False,False,292.4,0.1462
+qwen3-coder-next,Alibaba,M,80,3,False,False,332.3,0.1662
+gpt-oss-120b,OpenAI,L,117,5.1,True,True,342.0,0.171
+mistral-small-2603,Mistral AI,L,119,6,True,True,346.9,0.1735
+nemotron-3-super-120b-a12b,Nvidia,L,120,12,True,True,376.0,0.188
+llama-4-scout,Meta,L,109,17,False,True,400.3,0.2001
+Apertus-70B-Instruct-2509,Swiss AI,M,70,,False,True,657.5,0.3288
+deepseek-r1-distill-llama-70b,DeepSeek,M,70,,True,False,657.5,0.3288
+hermes-4-70b,Nous,M,70,,False,False,657.5,0.3288
+llama-3.1-70b,Meta,M,70,,False,False,657.5,0.3288
+llama-3.1-nemotron-70b-instruct,Nvidia,M,70,,False,False,657.5,0.3288
+llama-3.3-70b,Meta,M,70,,False,False,657.5,0.3288
+Meta-Llama-3-70B-Instruct,Meta,M,70,,False,False,657.5,0.3288
+Qwen2-72b-instruct,Alibaba,M,72,,False,False,667.2,0.3336
+gpt-4.1-mini,OpenAI,M,75,,False,False,681.8,0.3409
+minimax-m2,MiniMax,L,230,10,False,False,732.6,0.3663
+minimax-m2.5,MiniMax,L,229,10,True,False,732.6,0.3663
+minimax-m2.7,MiniMax,L,230,10,True,False,732.6,0.3663
+command-r-plus,Cohere,L,104,,False,False,822.5,0.4113
+grok-3-mini-beta,xAI,L,180,22,True,False,849.1,0.4246
+command-a,Cohere,L,111,,False,False,856.5,0.4283
+gemini-3.1-flash-lite-preview,Google,L,250,25,True,True,878.2,0.4391
+magistral-medium,Mistral AI,L,123,,False,False,914.8,0.4574
+mistral-large-2411,Mistral AI,L,123,,False,False,914.8,0.4574
+mistral-medium-2508,Mistral AI,L,123,,False,True,914.8,0.4574
+mistral-medium-3-5,Mistral AI,L,128,128,True,True,939.0,0.4695
+mixtral-8x22b-instruct-v0.1,Mistral AI,L,176,44,False,False,1062.7,0.5313
+deepseek-v4-flash,DeepSeek,L,284,13,True,True,1523.5,0.7618
+trinity-large-preview,Arcee,L,398,13,False,False,1523.5,0.7618
+trinity-large-thinking,Arcee,L,398,13,True,True,1523.5,0.7618
+llama-maverick,Meta,XL,400,17,False,True,1601.2,0.8006
+qwen3.5-397b-a17b,Alibaba,L,397,17,True,True,1601.2,0.8006
+minimax-m3,MiniMax,XL,428,23,True,True,1717.7,0.8588
+glm-4.5,Zhipu,L,355,32,False,False,1892.4,0.9462
+glm-4.6,Zhipu,L,357,32,False,False,1892.4,0.9462
+glm-4.7,Zhipu,L,357,32,False,False,1892.4,0.9462
+Qwen3-Coder-480B-A35B-Instruct,Alibaba,XL,480,35,True,False,1950.6,0.9753
+gemini-3.5-flash-lite,Google,L,250,,True,True,3062.3,1.5312
+gpt-5,OpenAI,L,300,94,False,False,3096.1,1.548
+gpt-5.1,OpenAI,L,300,94,False,False,3096.1,1.548
+gpt-5.2,OpenAI,L,300,94,False,False,3096.1,1.548
+gpt-5.3,OpenAI,L,300,94,False,False,3096.1,1.548
+gpt-5.4,OpenAI,L,300,94,True,False,3096.1,1.548
+gpt-5.5,OpenAI,L,300,94,True,True,3096.1,1.548
+gpt-5.6-luna,OpenAI,L,300,94,True,True,3096.1,1.548
+gpt-5.6-terra,OpenAI,L,300,94,True,True,3096.1,1.548
+jamba-1.5-large,AI21,XL,400,94,False,False,3096.1,1.548
+kimi-k2,Moonshot AI,XL,1000,32,True,False,3784.8,1.8924
+kimi-k2-thinking,Moonshot AI,XL,1000,32,True,False,3784.8,1.8924
+kimi-k2.5,Moonshot AI,XL,1000,32,True,False,3784.8,1.8924
+kimi-k2.6,Moonshot AI,XL,1000,32,True,True,3784.8,1.8924
+qwen3-max-2025-09-23,Alibaba,XL,1000,32,False,False,3784.8,1.8924
+qwen3.7-max,Alibaba,XL,1000,32,True,True,3784.8,1.8924
+claude-3-5-sonnet-v2,Anthropic,XL,440,137.5,False,False,3930.9,1.9654
+claude-3-7-sonnet,Anthropic,XL,440,137.5,False,False,3930.9,1.9654
+claude-4-5-sonnet,Anthropic,XL,440,137.5,False,False,3930.9,1.9654
+claude-4-6-sonnet,Anthropic,XL,440,137.5,False,True,3930.9,1.9654
+claude-4-sonnet,Anthropic,XL,440,137.5,False,False,3930.9,1.9654
+claude-5-sonnet,Anthropic,XL,440,137.5,True,True,3930.9,1.9654
+gemini-2.0-flash,Google,XL,440,137,False,False,3930.9,1.9654
+gemini-2.5-flash,Google,XL,440,137,False,False,3930.9,1.9654
+gemini-3-flash-preview,Google,XL,440,137,False,False,3930.9,1.9654
+gpt-4o-2024-08-06,OpenAI,XL,440,137.5,False,False,3930.9,1.9654
+deepseek-chat-v3.1,DeepSeek,XL,685,37,True,False,3978.9,1.9895
+deepseek-r1,DeepSeek,XL,671,37,True,False,3978.9,1.9895
+deepseek-r1-0528,DeepSeek,XL,685,37,True,False,3978.9,1.9895
+deepseek-v3-0324,DeepSeek,XL,685,37,False,False,3978.9,1.9895
+deepseek-v3-chat,DeepSeek,XL,671,37,False,False,3978.9,1.9895
+DeepSeek-V3.2,DeepSeek,XL,685,37,False,False,3978.9,1.9895
+glm-5,Zhipu,XL,744,40,True,False,4095.4,2.0477
+glm-5.1,Zhipu,XL,744,40,True,False,4095.4,2.0477
+glm-5.2,Zhipu,XL,744,40,True,True,4095.4,2.0477
+mistral-large-2512,Mistral AI,XL,675,41,False,True,4134.2,2.0671
+gemini-3-pro-preview,Google,XL,750,45,False,False,4289.5,2.1448
+gemini-3.1-pro-preview,Google,XL,750,45,True,True,4289.5,2.1448
+odin-large,Ordbogen,L,358,,False,True,8221.4,4.1107
+odin-medium,Ordbogen,L,358,,False,True,8221.4,4.1107
+deepseek-v4-pro,DeepSeek,XL,1600,49,True,True,8889.7,4.4448
+hermes-3-llama-3.1-405b,Nous,XL,405,,False,False,9133.8,4.5669
+llama-3.1-405b,Meta,XL,405,,False,False,9133.8,4.5669
+gemini-3.5-flash,Google,XL,440,,True,True,9813.3,4.9067
+gemini-3.6-flash,Google,XL,440,,True,True,9813.3,4.9067
+qwen3.6-plus,Alibaba,XL,500,,True,True,10978.2,5.4891
+qwen3.7-plus,Alibaba,XL,500,,True,True,10978.2,5.4891
+gemini-1.5-pro,Google,XL,600,220,False,False,11084.5,5.5422
+grok-4-fast,xAI,XL,1700,121,False,False,14480.9,7.2405
+grok-4.1-fast,xAI,XL,1700,121,False,False,14480.9,7.2405
+kimi-k3,Moonshot AI,XL,2800,104,True,True,26321.6,13.1608
+grok-4.20,xAI,XL,1700,,True,False,137100.4,68.5502
+grok-4.3,xAI,XL,1700,,True,False,137100.4,68.5502

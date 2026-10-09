@@ -1,0 +1,380 @@
+[
+  {
+    "id": "card-001",
+    "text": "Un habitant demande à l'IA de rédiger la lettre de résiliation de son bail.",
+    "usage": "utile",
+    "categorie_energie": "Daily Life & Home & Lifestyle",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Administratif",
+      "prompt_origine": "Rédige un courrier pour résilier le bail de mon appartement"
+    }
+  },
+  {
+    "id": "card-002",
+    "text": "Une habitante veut une lettre pour contester une erreur sur sa facture.",
+    "usage": "utile",
+    "categorie_energie": "Daily Life & Home & Lifestyle",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Administratif",
+      "prompt_origine": "Rédige une lettre formelle pour signaler une erreur sur une facture reçue, en expliquant l'erreur en question et en demandant une correction ou un remboursement."
+    }
+  },
+  {
+    "id": "card-003",
+    "text": "Un habitant demande un programme de course à pied pour les 30 prochains jours.",
+    "usage": "utile",
+    "categorie_energie": "Health & Wellness & Medicine",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Conseils",
+      "prompt_origine": "Je suis débutant en course à pied. Peux-tu me proposer un programme de course à pied pour les 30 prochains jours ?"
+    }
+  },
+  {
+    "id": "card-004",
+    "text": "Une famille demande un plan de repas équilibrés pour toute la semaine.",
+    "usage": "utile",
+    "categorie_energie": "Health & Wellness & Medicine",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Conseils",
+      "prompt_origine": "Propose moi un plan de repas équilibré pour la semaine pour un foyer de deux personnes habitant en ville et n’ayant pas toujours beaucoup de temps pour cuisiner."
+    }
+  },
+  {
+    "id": "card-005",
+    "text": "Un élève demande à l'IA de lui expliquer l'empreinte écologique.",
+    "usage": "utile",
+    "categorie_energie": "Education",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Explications",
+      "prompt_origine": "Reformule le [concept d'empreinte écologique] pour des élèves de lycée"
+    }
+  },
+  {
+    "id": "card-006",
+    "text": "Une collégienne veut comprendre l'empreinte carbone avec des exemples du quotidien.",
+    "usage": "utile",
+    "categorie_energie": "Education",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Explications",
+      "prompt_origine": "Décrivez le [concept de l'empreinte carbone] en utilisant des analogies avec des objets de la vie quotidienne"
+    }
+  },
+  {
+    "id": "card-007",
+    "text": "Un habitant veut traduire une expression française en occitan.",
+    "usage": "utile",
+    "categorie_energie": "Culture & Cultural geography",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Traduction",
+      "prompt_origine": "Comment traduit-on l'expression 'faire d'une pierre deux coups' en [occitan] ?"
+    }
+  },
+  {
+    "id": "card-008",
+    "text": "Une élève demande un dialogue en espagnol pour réviser son oral.",
+    "usage": "utile",
+    "categorie_energie": "Culture & Cultural geography",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Traduction",
+      "prompt_origine": "Écris un dialogue en [langue] entre deux amis discutant des activités hivernales."
+    }
+  },
+  {
+    "id": "card-009",
+    "text": "Un parent demande des idées de chasse au trésor pour un anniversaire.",
+    "usage": "confort",
+    "categorie_energie": "Business & Economics & Finance",
+    "effects": {
+      "accept": {
+        "demand": 0.4,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -0.3
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Idées",
+      "prompt_origine": "J'organise une chasse au trésor pour l'anniversaire de mon enfant. Ils seront en tout une quinzaine et cela ne doit pas durer plus de 2h30. Peux-tu me proposer un déroulé ?"
+    }
+  },
+  {
+    "id": "card-010",
+    "text": "Une entreprise demande 5 noms pour son nouveau produit… puis 50 de plus.",
+    "usage": "confort",
+    "categorie_energie": "Business & Economics & Finance",
+    "effects": {
+      "accept": {
+        "demand": 0.4,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -0.3
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Idées",
+      "prompt_origine": "En tant que rédacteur publicitaire très reconnu dans ton domaine, propose 5 noms pour le nouveau produit [X] qui a pour objectif [Y]. Donne-moi les noms sous forme de tableau et réalise une évaluation pour savoir quel nom fonctionne le mieux en affichant tes critères (score maximum: 5 points)"
+    }
+  },
+  {
+    "id": "card-011",
+    "text": "Un habitant demande une recette avec les restes de son frigo.",
+    "usage": "utile",
+    "categorie_energie": "Food & Drink & Cooking",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Recettes",
+      "prompt_origine": "Peux-tu m’aider à faire un plat avec ce que j’ai dans mon frigo : [ingrédient 1], [ingrédient 2], et [ingrédient 3] ?"
+    }
+  },
+  {
+    "id": "card-012",
+    "text": "Une habitante demande une dixième idée de dessert, juste pour voir.",
+    "usage": "confort",
+    "categorie_energie": "Food & Drink & Cooking",
+    "effects": {
+      "accept": {
+        "demand": 0.4,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -0.3
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Recettes",
+      "prompt_origine": "Propose une recette gourmande de dessert vegan facile à faire"
+    }
+  },
+  {
+    "id": "card-013",
+    "text": "Un habitant demande une playlist pour aller au sport.",
+    "usage": "confort",
+    "categorie_energie": "Entertainment & Travel & Hobby",
+    "effects": {
+      "accept": {
+        "demand": 0.4,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -0.3
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Recommandations",
+      "prompt_origine": "Peux-tu me proposer une playlist de musique pour me motiver à aller au sport ?"
+    }
+  },
+  {
+    "id": "card-014",
+    "text": "Un groupe d'amis demande à l'IA quel film regarder ce soir.",
+    "usage": "confort",
+    "categorie_energie": "Entertainment & Travel & Hobby",
+    "effects": {
+      "accept": {
+        "demand": 0.4,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -0.3
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Recommandations",
+      "prompt_origine": "Peux-tu me recommander un film qui mélange science-fiction et comédie ?"
+    }
+  },
+  {
+    "id": "card-015",
+    "text": "Un habitant demande une histoire sans la lettre « e », pour s'amuser.",
+    "usage": "confort",
+    "categorie_energie": "Arts",
+    "effects": {
+      "accept": {
+        "demand": 0.4,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -0.3
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Histoires",
+      "prompt_origine": "Écris une histoire en 100 mots, sans utiliser la lettre \"e\", où un enfant découvre un objet mystérieux dans le grenier de ses grands-parents."
+    }
+  },
+  {
+    "id": "card-016",
+    "text": "Une habitante fait générer 20 histoires de fantômes d'affilée.",
+    "usage": "confort",
+    "categorie_energie": "Arts",
+    "effects": {
+      "accept": {
+        "demand": 0.4,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -0.3
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Histoires",
+      "prompt_origine": "Imagine une histoire de 200 mots où un personnage doit faire face à un événement surnaturel dans une région rurale."
+    }
+  },
+  {
+    "id": "card-017",
+    "text": "Le conseil municipal demande s'il faut encadrer l'IA à l'école.",
+    "usage": "utile",
+    "categorie_energie": "Politics & Government",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Sommet pour l'action sur l'IA",
+      "prompt_origine": "Pourquoi devrions-nous réguler l'usage de l'IA dans les écoles pour préserver l'équilibre éducatif ?"
+    }
+  },
+  {
+    "id": "card-018",
+    "text": "Une association demande comment rendre les entreprises d'IA plus transparentes.",
+    "usage": "utile",
+    "categorie_energie": "Politics & Government",
+    "effects": {
+      "accept": {
+        "demand": 0.2,
+        "trust": 1
+      },
+      "refuse": {
+        "demand": 0,
+        "trust": -1.5
+      }
+    },
+    "source": {
+      "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+      "categorie": "Sommet pour l'action sur l'IA",
+      "prompt_origine": "Comment pouvons-nous garantir que les laboratoires d'IA soient transparents sur leurs données d'entraînement et les biais de leurs modèles ?"
+    }
+  }
+]

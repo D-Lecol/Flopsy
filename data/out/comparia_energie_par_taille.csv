@@ -1,0 +1,8 @@
+groupe,valeur,nb_modeles,min_wh_mtok,mediane_wh_mtok,max_wh_mtok,mediane_wh_pour_500_tokens
+taille,XS,29,81,89,96,0.045
+taille,S,36,82,115,292,0.057
+taille,M,10,332,658,682,0.329
+taille,L,34,342,1524,8221,0.762
+taille,XL,45,1601,3979,137100,1.989
+raisonnement,non,102,81,244,14481,0.122
+raisonnement,oui,52,83,2506,137100,1.253

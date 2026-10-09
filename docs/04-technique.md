@@ -16,23 +16,23 @@
 
 ## 4.1 Stack
 
-| Besoin            | Choix                                                                                                             | Pourquoi                                                    |
-|-------------------|-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| Application       | **React + TypeScript**, build **rsbuild**                                                                         | Déjà en place dans le dépôt                                 |
-| Style             | **Tailwind CSS**                                                                                                  | Déjà en place, rapide pour intégrer la maquette             |
-| Rendu de la carte | **Canvas 2D ou PixiJS** (à confirmer avec le prototype de T03) ; Three.js seulement si la 3D apporte un vrai plus | Une carte isométrique fixe n'a pas besoin d'un moteur 3D    |
-| État du jeu       | **Zustand** (ou `useReducer`)                                                                                     | Un store léger, facile à brancher sur le moteur             |
-| Graphiques        | **Recharts**                                                                                                      | Bilan et Encyclopédie                                       |
-| Tests             | **Vitest**                                                                                                        | Natif avec l'outillage actuel, rapide                       |
-| Données           | **Python + DuckDB** dans `data/`                                                                                  | Lit les gros parquets Compar:IA sans les charger en mémoire |
-| Hébergement       | **Vercel** (site statique)                                                                                        | Déjà en place : prévisualisation à chaque PR                |
+| Besoin            | Choix                                                               | Pourquoi                                                      |
+|-------------------|---------------------------------------------------------------------|---------------------------------------------------------------|
+| Application       | **React + TypeScript**, build **rsbuild**                           | Déjà en place dans le dépôt                                   |
+| Style             | **Tailwind CSS**                                                    | Déjà en place, rapide pour intégrer la maquette               |
+| Rendu de la carte | **Three.js** (WebGL), caméra orthographique pour la vue isométrique | En place dans `src/game/iso/` (terrain, bâtiments, contrôles) |
+| État du jeu       | **Zustand** (ou `useReducer`)                                       | Un store léger, facile à brancher sur le moteur               |
+| Graphiques        | **Recharts**                                                        | Bilan et Encyclopédie                                         |
+| Tests             | **Vitest**                                                          | Natif avec l'outillage actuel, rapide                         |
+| Données           | **Python + DuckDB** dans `data/`                                    | Lit les gros parquets Compar:IA sans les charger en mémoire   |
+| Hébergement       | **Vercel** (site statique)                                          | Déjà en place : prévisualisation à chaque PR                  |
 
 ## 4.2 Principes d'architecture
 
 ```mermaid
 flowchart TB
     subgraph data["data/ (hors ligne)"]
-        RAW[Sources brutes] --> BUILD[build.py]
+        RAW[Sources brutes] --> BUILD["scripts 01 à 06"]
     end
     BUILD --> JSON[(public/data/*.json)]
 subgraph app["Application React"]
@@ -58,23 +58,30 @@ end
 
 ```
 Flopsy/
-├── docs/                  # cette documentation
-├── data/                  # pipeline de données (voir chapitre 3)
+├── docs/                    # cette documentation
+├── data/                    # pipeline de données (voir chapitre 3)
 ├── public/
-│   └── data/
-│       ├── params.json    # paramètres calibrés
-│       ├── cards.json     # cartes-requêtes
-│       ├── events.json    # événements
-│       ├── fiches.json    # fiches des secrets
-│       └── sources.json   # tableau de traçabilité
+│   └── data/                # params.json, sources.json, cards.json (+ events.json, fiches.json à venir)
 ├── src/
-│   ├── engine/            # moteur pur : state.ts, tick.ts, energy.ts, trust.ts, demand.ts, endings.ts, rng.ts
-│   │   └── __tests__/
-│   ├── store/             # store Zustand et boucle temps réel
-│   ├── map/               # rendu de la carte et de la caméra
-│   ├── ui/                # jauges, panneaux, modales, écrans
-│   ├── screens/           # menu, jeu, fin, bilan, encyclopédie, crédits
-│   └── main.tsx
+│   ├── core/                # écran de chargement, logo, layout racine
+│   ├── main_menu/           # menu principal
+│   ├── game/
+│   │   ├── iso/             # carte isométrique Three.js
+│   │   │   ├── controls/    # caméra, clavier, souris, glisser
+│   │   │   ├── domain/      # GameState, stock de terres rares, bâtiments, stats
+│   │   │   ├── engine/      # IsoMapEngine, horloge d'images, assemblage de la carte
+│   │   │   ├── render/      # scène, modèles 3D, réseau électrique, animations
+│   │   │   ├── tools/       # construction, démolition, placement
+│   │   │   ├── world/       # terrain, décor, coordonnées
+│   │   │   ├── react/       # IsoMap, useGameStats
+│   │   │   └── util/
+│   │   ├── components/      # MapControls, Notification
+│   │   ├── navigation/
+│   │   ├── pages/
+│   │   └── views/           # vue générale, réseau électrique, clusters
+│   ├── router.tsx
+│   └── index.jsx
+├── tests/                   # tests Vitest, même arborescence que src/
 └── README.md
 ```
 
@@ -84,14 +91,10 @@ Flopsy/
 
 ```json
 {
-  "id": "card-012",
-  "text": "Un habitant demande 40 versions d'un même logo.",
-  "category": "creation_image",
-  "essential": false,
-  "energy_kwh": {
-    "p10": 0.002,
-    "p90": 0.02
-  },
+  "id": "card-015",
+  "text": "Un habitant demande une histoire sans la lettre « e », pour s'amuser.",
+  "usage": "confort",
+  "categorie_energie": "Arts",
   "effects": {
     "accept": {
       "demand": 0.4,
@@ -99,12 +102,13 @@ Flopsy/
     },
     "refuse": {
       "demand": 0,
-      "trust": -0.5
+      "trust": -0.3
     }
   },
   "source": {
-    "dataset": "comparia-conversations",
-    "ref": "<id Compar:IA>"
+    "dataset": "Compar:IA - prompts suggérés (utils/suggestions/fr.json)",
+    "categorie": "Histoires",
+    "prompt_origine": "Écris une histoire en 100 mots, sans utiliser la lettre \"e\", où un enfant découvre…"
   }
 }
 ```
@@ -151,16 +155,20 @@ Flopsy/
         0.20
       ],
       [
-        2026,
+        2025,
         0.48
       ]
     ]
   },
   "usage_categories": [
     {
-      "id": "creation_image",
+      "id": "Arts",
       "share": 0.0,
-      "essential": false
+      "wh": {
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.0
+      }
     }
   ],
   "trust": {
@@ -173,7 +181,8 @@ Flopsy/
 }
 ```
 
-> Les `0.0` sont des valeurs remplies par le script de calibration (T19).
+> Les `0.0` sont des valeurs remplies par les scripts `data/` puis par la calibration (T19). Le fichier réel généré par
+> `05_build_params.py` est dans `public/data/params.json`.
 
 **`sources.json`, une ligne du tableau de traçabilité :**
 
@@ -200,15 +209,15 @@ Flopsy/
 
 ## 4.6 Qualité
 
-| Sujet         | Règle                                                                                             |
-|---------------|---------------------------------------------------------------------------------------------------|
-| Branches      | `feat/…`, `fix/…`, `data/…` ; une PR par fonctionnalité, ce qui donne une prévisualisation Vercel |
-| Commits       | Conventional Commits (`feat:`, `fix:`, `docs:`…)                                                  |
-| Tests         | Vitest sur `engine/` : formules, conditions de fin, partie complète rejouée avec une graine       |
-| Lint          | ESLint et Prettier, TypeScript en mode strict                                                     |
-| Accessibilité | Contrastes, navigation au clavier, textes alternatifs ; vérification avec axe et Lighthouse       |
-| Performance   | 60 images/s sur une tablette de classe ; carte en Canvas ou PixiJS, pas de DOM par tuile          |
-| Suivi         | Board GitHub Projects avec les tâches du [backlog](05-backlog.md)                                 |
+| Sujet         | Règle                                                                                                                      |
+|---------------|----------------------------------------------------------------------------------------------------------------------------|
+| Branches      | `feat/…`, `fix/…`, `data/…` ; une PR par fonctionnalité, ce qui donne une prévisualisation Vercel                          |
+| Commits       | Conventional Commits (`feat:`, `fix:`, `docs:`…)                                                                           |
+| Tests         | Vitest dans `tests/` (même arborescence que `src/`) : formules, conditions de fin, partie complète rejouée avec une graine |
+| Lint          | ESLint et Prettier, TypeScript en mode strict                                                                              |
+| Accessibilité | Contrastes, navigation au clavier, textes alternatifs ; vérification avec axe et Lighthouse                                |
+| Performance   | 60 images/s sur une tablette de classe ; bâtiments regroupés en lots dans Three.js, pas de DOM par tuile                   |
+| Suivi         | Board GitHub Projects avec les tâches du [backlog](05-backlog.md)                                                          |
 
 ## 4.7 Mentions légales et confidentialité
 

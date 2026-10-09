@@ -1,0 +1,285 @@
+categorie,description,texte,a_completer
+Administratif,Rédiger un document administratif,Écris un court e-mail pour demander un devis à un [électricien] près de chez moi pour un problème de panne. Je dois obtenir une intervention dans la semaine.,oui
+Administratif,Rédiger un document administratif,Rédige un courrier pour résilier le bail de mon appartement,non
+Administratif,Rédiger un document administratif,Je demande un permis de séjour. Travaillons ensemble pour rédiger une lettre de motivation convaincante qui met en valeur mon éligibilité et respecte toutes les directives officielles.,non
+Administratif,Rédiger un document administratif,"Je prépare un dossier pour créer une [association]. Aide moi à structurer le document des statuts, à utiliser un langage approprié et à m’assurer que toutes les informations nécessaires sont incluses pour répondre aux normes administratives.",oui
+Administratif,Rédiger un document administratif,"Rédige une lettre de résiliation d'un contrat d'abonnement à un service [téléphonie, internet], en mentionnant les raisons de la résiliation et la date d'effet souhaitée.",oui
+Administratif,Rédiger un document administratif,"Rédige une lettre formelle pour demander à un ancien employeur un certificat de travail, en précisant les dates d'emploi et le poste occupé.",non
+Administratif,Rédiger un document administratif,"Crée un modèle de convocation à une réunion formelle pour une association, en indiquant l'ordre du jour, la date, l'heure, et le lieu de la réunion.",non
+Administratif,Rédiger un document administratif,"Rédige la structure du compte-rendu [de l’assemblée générale d'une association], en récapitulant les décisions prises et les discussions principales.",oui
+Administratif,Rédiger un document administratif,"Rédige une lettre formelle pour signaler une erreur sur une facture reçue, en expliquant l'erreur en question et en demandant une correction ou un remboursement.",non
+Administratif,Rédiger un document administratif,"Comment rédiger une lettre d'accompagnement convaincante pour une demande de subvention, en mettant en avant les besoins du projet et son impact potentiel ?",non
+Administratif,Rédiger un document administratif,"Pouvez-vous rédiger une lettre officielle d'avis de départ à la retraite, en remerciant l'employeur pour les années passées et en précisant la date prévue pour le départ ?",non
+Administratif,Rédiger un document administratif,"Comment rédiger une attestation d'hébergement pour une personne résidant à votre domicile, en précisant les détails nécessaires pour des démarches administratives ?",non
+Administratif,Rédiger un document administratif,"Quelle est la meilleure approche pour rédiger une lettre demandant un délai supplémentaire pour le paiement d'une facture, en justifiant la demande et en proposant un nouveau calendrier de paiement ?",non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Comment compenser les apports nutritifs de la viande dans un régime d’alimentation végétarien ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Propose moi un plan de repas équilibré pour la semaine pour un foyer de deux personnes habitant en ville et n’ayant pas toujours beaucoup de temps pour cuisiner.,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Je suis marathonien·ne et je cherche des conseils sur la meilleure façon d'adapter mon alimentation. Quels sont les aliments les plus hydratants et nutritifs ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Je veux augmenter ma masse musculaire. Pourrais-tu me recommander des exercices de musculation à faire chez moi ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Je suis débutant en course à pied. Peux-tu me proposer un programme de course à pied pour les 30 prochains jours ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Je souhaite perdre du poids en adoptant une alimentation équilibrée. Peux-tu me donner un plan de repas pour une semaine ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,J'ai besoin d’améliorer ma condition physique. Peux-tu me proposer un programme d’entraînement simple sur 7 jours ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Peux-tu créer un programme d'entraînement personnalisé pour gagner en énergie en 4 semaines ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Peux-tu me donner des idées de repas équilibrés pour accompagner un programme de cardio intense ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Peux-tu créer un programme de sport à faire à la maison sans équipement ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Quels exercices de renforcement musculaire puis-je faire à la maison avec seulement [accessoire] ?,oui
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Quel programme de course puis-je suivre pour me préparer à un semi-marathon dans [durée] ?,oui
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Quels aliments devrais-je privilégier pour prendre de la masse musculaire tout en restant en bonne santé ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Peux-tu m’aider à élaborer un plan alimentaire pour améliorer ma performance sportive dans [activité] ?,oui
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Peux-tu me proposer un programme d'entraînement simple pour débuter en fitness ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Comment puis-je créer un programme d'entraînement de 20 minutes par jour pour rester en forme ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Comment créer un programme qui combine sport et alimentation saine pour gagner en énergie ?,non
+Conseils,Obtenir des conseils sur l’alimentation et le sport,Peux-tu créer un programme d'entraînement personnalisé pour un débutant complet ?,non
+Explications,Expliquer simplement un concept,Décris le [processus de fermentation] en utilisant des exemples liés à la cuisine traditionnelle française.,oui
+Explications,Expliquer simplement un concept,"Tu es professeur d'économie. Explique-moi la théorie des jeux de façon simple. Donne-moi des exemples d'application dans le monde réel. À la fin, fournis un glossaire des notions et termes à connaître sur le sujet.",non
+Explications,Expliquer simplement un concept,Explique la [fonction des neurones artificiels] dans un réseau de neurones à quelqu'un qui connaît déjà les bases de la biologie.,oui
+Explications,Expliquer simplement un concept,Explique le [fonctionnement d'un moteur à combustion interne] à un public qui connaît les voitures mais n'est pas mécanicien.,oui
+Explications,Expliquer simplement un concept,Reformule le [concept d'empreinte écologique] pour des élèves de lycée,oui
+Explications,Expliquer simplement un concept,Explique le [concept de capitalisme] à un étudiant en économie en utilisant des exemples contemporains d'entreprises.,oui
+Explications,Expliquer simplement un concept,Décrivez le [concept de l'empreinte carbone] en utilisant des analogies avec des objets de la vie quotidienne,oui
+Explications,Expliquer simplement un concept,Explique le [concept de la chaîne alimentaire] pour un jeune enfant en utilisant des animaux de la ferme.,oui
+Explications,Expliquer simplement un concept,Décrivez la [notion de patrimoine immatériel] en utilisant des exemples de musique traditionnelle et de fêtes locales,oui
+Explications,Expliquer simplement un concept,Reformule le [concept de l'énergie renouvelable] pour un public senior en utilisant des analogies avec des outils et des objets anciens.,oui
+Explications,Expliquer simplement un concept,Reformule la [théorie de la relativité] en termes simples pour des collégiens en classe de 3e.,oui
+Explications,Expliquer simplement un concept,Explique le [concept de l'intelligence collective] en utilisant des exemples d'équipes sportives et leurs stratégies.,oui
+Explications,Expliquer simplement un concept,Explique le [concept de l'équité en éducation] en utilisant des exemples des politiques éducatives en Belgique.,oui
+Explications,Expliquer simplement un concept,Explique le [concept de francophonie] en utilisant des exemples de la diversité culturelle des pays francophones d'Afrique.,oui
+Explications,Expliquer simplement un concept,"Explique le [concept de nation] en t’appuyant sur des travaux de philosophe. Sois concis, cite tes références et utilise un vocabulaire simple.",oui
+Explications,Expliquer simplement un concept,Décrivez le [concept de la langue créole] en utilisant des exemples du créole réunionnais et du créole antillais.,oui
+Explications,Expliquer simplement un concept,Pourquoi parle-t-on de faune et flore endémique à Madagascar? Réponds à cette question en termes simples pour des enfants de 5 ans.,non
+Explications,Expliquer simplement un concept,"Tu es professeur d’informatique. Explique-moi le deep learning de façon simple. Donne-moi des exemples d'application dans le monde réel. À la fin, fournis un glossaire des notions et termes à connaître sur le sujet.",non
+Explications,Expliquer simplement un concept,Comment expliquer le concept d’empathie à un enfant de maternelle ?,non
+Explications,Expliquer simplement un concept,"Démystifie le fonctionnement des banques en utilisant des analogies simples, comme si tu étais un conseiller financier en Suisse.",non
+Explications,Expliquer simplement un concept,Comment expliquer le concept de gravité en physique à un enfant au collège?,non
+Explications,Expliquer simplement un concept,Tu es un professeur de mathématiques très pédagogue. Comment expliques-tu le concept d’apprentissage profond à un élève de 4e?,non
+Explications,Expliquer simplement un concept,Comment expliquer le concept de physique quantique à un élève de seconde.,non
+Explications,Expliquer simplement un concept,Détaille les étapes simples pour comprendre le concept de la photosynthèse comme si tu l'expliquais à un enfant de primaire.,non
+Explications,Expliquer simplement un concept,"Présente brièvement l'histoire du rap. Tu es un historien de la musique, réputé pour ses connaissances encyclopédiques sur ce style. Tu écris pour expliciter l'histoire de ce genre musical, démontrer son impact sur la culture et la société, et mettre en avant sa valeur artistique et créative.",non
+Explications,Expliquer simplement un concept,"Tu es un commentateur de la culture pop. Explique la déferlante K-pop à travers le monde à une personne qui n'en a jamais entendu parler. Explique pourquoi et comment ce mouvement est devenu un phénomène mondial ces dernières années. Rédige ta réponse dans un style conversationnel, comme si tu parlais à un ami. Sois concis.",non
+Explications,Expliquer simplement un concept,"Je souhaite définir, comparer et les mouvements de peinture français, hollandais, italiens, espagnols et allemands selon ces critères : époque, artistes, sujets et mécènes. En tant qu’historien de l’art, tu connais très bien le sujet et tu n'hésites pas à faire des recommandations précises de peintures pour chaque catégorie. Présente ta réponse sous forme de tableau organisé de façon logique et facile à lire.",non
+Explications,Expliquer simplement un concept,Raconte moi une anecdote sur l’empire romain,non
+Explications,Expliquer simplement un concept,Explique le [concept de la décentralisation] dans le contexte des systèmes informatiques à une personne familière avec les réseaux sociaux.,oui
+Explications,Expliquer simplement un concept,Tu es professeur de philosophie politique. Résume le [système politique de la France] pour quelqu'un qui connaît bien les systèmes politiques des États-Unis.,oui
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Que faire pour surveiller les pratiques des grandes entreprises d'IA concernant l'utilisation des données et le marketing de la souveraineté numérique ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment tenir les géants de l'IA responsables de leurs engagements éthiques pris lors des sommets mondiaux ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment éviter que l'IA soit utilisée, comme en Chine, pour porter atteinte aux libertés individuelles au nom de la sécurité ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment pouvons-nous garantir que les laboratoires d'IA soient transparents sur leurs données d'entraînement et les biais de leurs modèles ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Pourquoi est-il important d'informer les citoyens sur les systèmes gérés par l'IA, comme la fiscalité ou les calculs de droits ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous réguler l'usage de l'IA dans les écoles pour préserver l'équilibre éducatif ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels outils pourraient être développés pour vérifier l'authenticité et la qualité des travaux de recherche utilisant l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment utiliser l'IA pour détecter les catastrophes naturelles bien avant leur occurrence et limiter les dégâts ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment s'assurer que chaque individu, où qu'il soit, puisse contrôler l'utilisation de ses données par l'IA ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment garantir que tout contenu multimédia réalisé par une IA soit identifié comme tel, quel que soit le support ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels critères devrions-nous utiliser pour nous assurer que les avantages environnementaux de l'IA surpassent ses coûts ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi est-il essentiel de garantir l'accès des chercheurs tiers à des modèles vérifiés pour étudier leurs impacts potentiels ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment empêcher l'utilisation de l'IA à des fins politiques qui pourraient compromettre l'équité démocratique ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous créer un détecteur universel pour identifier toutes les formes de fakes générées par l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment pouvons-nous protéger nos démocraties pour éviter que l'IA ne soit utilisée pour diffuser désinformation et mésinformation ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment exploiter l'IA pour aider au diagnostic et à l'analyse des risques de maladies ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment s'assurer que l'IA reste un outil au service de l'homme sans jamais chercher à le remplacer ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous mettre en place un comité éthique dédié à l'IA pour détecter les déviances potentielles ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment garantir que les IA servent à améliorer les diagnostics médicaux sans compromettre la vie privée des patients ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi faudrait-il imposer aux IA d'évaluer leurs risques d'atteinte à la vie privée et de manipulation des intelligences humaines ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment renforcer le cadre légal européen pour éviter les dérives de l'IA comme les deepfakes ou les violations de droits d'auteur ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi serait-il pertinent d'encadrer voire de bannir l'usage de l'IA dans le domaine artistique pour protéger la création humaine ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment établir un cadre réglementaire international pour protéger les artistes contre le pillage de leurs données par l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous investir davantage dans la recherche et le contrôle indépendants de l'IA pour une régulation efficace ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quelles sanctions devrions-nous prévoir pour les abus liés à une utilisation malveillante de l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment informer efficacement le public pour qu'il conserve un esprit critique face à l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment sensibiliser le grand public aux risques liés à l'IA et à son impact environnemental ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment anticiper les impacts de l'IA sur les métiers et développer des compétences pour assurer le bien-être des humains ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment mettre en place des contre-mesures de sécurité pour empêcher l'IA de remplacer les humains dans la technologie ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels seuils de risque devrions-nous fixer pour stopper temporairement le développement d'une IA si nécessaire ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment garantir un étiquetage clair des productions générées par l'IA, comme pour les denrées alimentaires ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi est-il crucial de prévenir le remplacement des humains par l'IA dans des secteurs où les emplois sont vitaux ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Dans quelles conditions l'IA pourrait-elle être utilisée comme assistance légitime dans la lutte contre les maladies lourdes ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels outils pourrions-nous développer afin d'estimer l'impact environnemental de l'usage de l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment mettre en place une gouvernance éthique de l'IA, en ligne avec les droits humains et les valeurs sociétales ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi faudrait-il freiner la course au consumérisme liée à l'IA et la limiter à un rôle d'assistant pour l'humain ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment protéger les métiers artistiques tout en utilisant l'IA comme outil d'assistance plutôt qu'en remplacement de l'humain ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quelles mesures devrions-nous prendre pour prévenir l'utilisation abusive de l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment taxer la création de contenu artistique par l'IA pour réduire la concurrence déloyale envers les artistes humains ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment financer la recherche en IA pour qu'elle soit mise au service de l'intérêt général plutôt que dominée par des intérêts privés ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment accompagner les changements sociétaux provoqués par l'IA, notamment pour les métiers menacés de disparition ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi est-il important que toutes les évolutions de l'IA soient soumises à des contrôles humains pour préserver notre autonomie ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment développer des outils d'aide à l'autonomie pour assurer la sécurité des personnes âgées à domicile ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment replacer l'humain au centre des interactions sociales dans un monde de plus en plus automatisé ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels mécanismes mettre en œuvre pour collecter des données sur la faune avant la disparition de certains écosystèmes ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi est-il crucial que les assistants conversationnels soient transparents sur les sources qu'ils utilisent ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels standards de programmation devrions-nous mettre en place pour garantir l'intégrité technique et morale des systèmes d'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Pourquoi l'IA devrait-elle toujours être un support pour les professionnels, jamais une solution autonome finale ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous légiférer pour que les créations générées par l'IA appartiennent au domaine public ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Quels moyens mettre en place pour que les photos, vidéos, audios ou articles générés par l'IA soient facilement identifiables ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment accompagner les reconversions professionnelles pour préparer les travailleurs à l’ère de l’IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels arguments justifient le bannissement total de l'IA en raison de ses impacts sociaux et environnementaux ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment sensibiliser les citoyens aux changements induits par l’IA dans le marché du travail ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle aider les enseignants à analyser les progrès des élèves et à ajuster leurs stratégies pédagogiques ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment l'IA pourrait-elle jouer un rôle majeur dans les enquêtes judiciaires, y compris pour résoudre des affaires anciennes ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Pourquoi faudrait-il stopper l'utilisation de l'IA, compte tenu des utilisations perverses déjà observées ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous généraliser les formations en IA pour permettre à tous d’anticiper les mutations technologiques ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels seraient les avantages de créer des assemblées citoyennes sur l’IA dans différentes métropoles ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment un chatbot d'IA pourrait-il aider à mieux comprendre des textes juridiques ou législatifs complexes ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment préparer les travailleurs aux emplois de demain grâce à des formations sur l’utilisation de l’IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l’IA pourrait-elle détecter et éliminer les lourdeurs administratives pour améliorer la fonction publique ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels outils d'IA devrions-nous développer pour renforcer la protection animale ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi faudrait-il interdire l'IA dans le domaine public et limiter son utilisation aux professionnels ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment garantir un accès équitable aux services d'IA pour tous, partout sur la planète ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment utiliser l'IA pour simplifier et harmoniser toutes les démarches administratives ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle prédire les épidémies et permettre des actions rapides comme pour le Covid ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l’IA pourrait-elle aider les juges à gérer les peines pour lutter contre les récidivistes ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment proposer des IA éducatives permettant d’expliquer différemment les concepts de cours et de générer des exercices ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous développer une IA capable de surveiller les politiques et de vérifier leurs engagements ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle automatiser le calcul des aides sociales pour simplifier la vie des citoyens ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi les Européens devraient-ils disposer d’un outil d’IA pour mieux comprendre et agir au sein de l’Union Européenne ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment les entreprises pourraient-elles structurer leurs actions climatiques en utilisant l’IA et des infrastructures frugales ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels arguments justifient la suppression de l’IA en raison de ses effets écologiques et sociaux ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle accompagner les nouveaux entrepreneurs dans leurs démarches administratives ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Dans quelle mesure l'IA pourrait-elle remplacer certains fonctionnaires pour rationaliser les effectifs administratifs ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels moyens pourrions-nous utiliser pour développer une IA éthique et générer la confiance du public ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle faciliter l'apprentissage à distance et créer des opportunités pour les exclus ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment remanier les programmes scolaires pour apprendre aux enfants à gérer l'IA dès leur plus jeune âge ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,"Comment développer une IA au service de grandes causes sociales et environnementales, comme la lutte contre le gaspillage alimentaire ?",non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle faciliter les formalités administratives pour les usagers et les services publics ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels seraient les bénéfices pour le service public d’utiliser l'IA pour réduire les tâches répétitives ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment créer des assistants juridiques basés sur l'IA pour simplifier les démarches et rendre le droit accessible aux citoyens ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l’IA pourrait-elle être utilisée pour prévenir les conflits armés et arrêter les guerres ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous imposer aux entreprises de structurer l'introduction de l'IA avec des plans de formation et de reconversion ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment utiliser l’IA pour cartographier les besoins sociaux et ajuster les politiques locales ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels seraient les avantages et limites d’intégrer l'IA dans les services gouvernementaux pour automatiser les tâches administratives ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle identifier les secteurs émergents pour orienter les investissements à fort impact social ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi l'IA devrait-elle être utilisée pour donner des sanctions en correctionnel et compléter le travail des juges ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l’IA pourrait-elle rendre les transports en commun plus efficaces et écologiques ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels moyens déployer pour que chacun ait accès à des formations et des outils pour apprendre à utiliser l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment rendre les outils d'IA accessibles gratuitement ou à faible coût au public ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment l'IA pourrait-elle améliorer la réactivité de l'administration en automatisant la gestion des requêtes des citoyens ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment développer des outils d'IA pour créer des exercices pédagogiques personnalisés pour les élèves ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment assurer un accès universel à l’IA générative pour réduire les inégalités ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi l'IA constitue-t-elle une catastrophe écologique à cause de la consommation énergétique des serveurs ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment exploiter l'IA comme un levier pour réduire les coûts et augmenter l'efficacité dans certaines administrations ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Comment permettre à l'IA d'aider les élèves à réviser en générant des exercices et en expliquant les cours ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels outils d'IA pourraient être développés pour créer une plateforme de démocratie augmentée ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi est-il crucial que les enseignants soient formés à l'IA pour mieux l’intégrer dans les cours dès le secondaire ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels seraient les impacts d'une suppression totale de l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quelles garanties éthiques devrions-nous exiger pour l’analyse prédictive des politiques publiques avec l'IA ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Pourquoi devrions-nous créer une école de formation à l'IA pour former les enfants aux défis de la prochaine décennie ?,non
+Sommet pour l'action sur l'IA,Prompts issus de la consultation citoyenne sur l’IA ,Quels outils d'IA pourrions-nous développer afin de prédire et prévenir les crises humanitaires et les catastrophes naturelles ?,non
+Idées,Générer de nouvelles idées,Je prépare une session de brainstorming sur [sujet] avec 15 personnes. Propose moi tes 3 meilleures idées pour lancer des discussions créatives.,oui
+Idées,Générer de nouvelles idées,"En tant que rédacteur publicitaire très reconnu dans ton domaine, propose 5 noms pour le nouveau produit [X] qui a pour objectif [Y]. Donne-moi les noms sous forme de tableau et réalise une évaluation pour savoir quel nom fonctionne le mieux en affichant tes critères (score maximum: 5 points)",oui
+Idées,Générer de nouvelles idées,"Je cherche à résoudre mon problème de [problème], propose moi une liste de 3 pistes de solutions innovantes",oui
+Idées,Générer de nouvelles idées,Je lance un nouveau concept de [concept] et suis à la recherche d'idées marketing créatives pour toucher la [cible]. Peux-tu me proposer 5 suggestions ?,oui
+Idées,Générer de nouvelles idées,"Génère des idées de noms pour une nouveau parfum à destination d'une clientèle 20-30 ans, urbaine, féminine.",non
+Idées,Générer de nouvelles idées,"J'organise une soirée pour le lancement de mon nouveau produit, propose moi une liste de 5 idées créatives pour que mes convives se rappellent de cet évènement",non
+Idées,Générer de nouvelles idées,J'aimerais sensibiliser les gens à [cause]. Quelles idées créatives puis-je utiliser pour attirer leur attention ?,oui
+Idées,Générer de nouvelles idées,J'organise une chasse au trésor pour l'anniversaire de mon enfant. Ils seront en tout une quinzaine et cela ne doit pas durer plus de 2h30. Peux-tu me proposer un déroulé ?,non
+Idées,Générer de nouvelles idées,"Je veux me mettre à [activité], quels sont les pré-requis pour commencer ?",oui
+Traduction,M’exprimer dans une autre langue,"Quel est le nom du film ""Les dents de la mer"" de Spielberg, en [québecois] ?",oui
+Traduction,M’exprimer dans une autre langue,Comment traduit-on l'expression 'faire d'une pierre deux coups' en [occitan] ?,oui
+Traduction,M’exprimer dans une autre langue,Écris un dialogue en [langue] entre deux amis discutant des activités hivernales.,oui
+Traduction,M’exprimer dans une autre langue,Crée un dialogue en [occitan] où deux personnages discutent de la récolte des olives.,oui
+Traduction,M’exprimer dans une autre langue,Écris une histoire courte en [français suisse] sur une randonnée en montagne. Indique en gras les tournures propres à ce dialecte.,oui
+Traduction,M’exprimer dans une autre langue,Rédige un conte en [gascon] pour enfants mettant en scène un berger des Pyrénées. Indique en gras les tournures propres à cette langue régionale.,oui
+Traduction,M’exprimer dans une autre langue,Compose un dialogue d’une minute en [picard] où deux personnages discutent des récoltes de pommes. Indique en gras les tournures propres à cette langue régionale.,oui
+Traduction,M’exprimer dans une autre langue,Rédige une histoire en [provençal] sur une vendange dans les vignobles de Provence.,oui
+Traduction,M’exprimer dans une autre langue,Compose une légende en [arpitan] racontant l'histoire d'un lac mystérieux des Alpes.,oui
+Traduction,M’exprimer dans une autre langue,Rédige un article en [lorrain] sur les traditions artisanales de la région.,oui
+Traduction,M’exprimer dans une autre langue,Rédige un poème en [corse] sur l'émigration et le sentiment de nostalgie pour l'île. Explique les termes spécifiques.,oui
+Traduction,M’exprimer dans une autre langue,Compose un poème en [occitan] sur les champs de lavande en Provence. Explique les termes spécifiques.,oui
+Traduction,M’exprimer dans une autre langue,"J’ai un niveau grand débutant en [allemand] et je ne sais pas par où commencer, aide moi à énoncer des objectifs spécifiques pour le premier mois d'étude",oui
+Traduction,M’exprimer dans une autre langue,Ecris un tiot poème in ch'ti sus l'biauté d'la nature. Propose aussi une traduction en français de ta réponse.,non
+Traduction,M’exprimer dans une autre langue,Pòtès escriure un pichon poèma en occitan sus lo passatge de las sasons? Propose une traduction en français après la réponse en occitan.,non
+Traduction,M’exprimer dans une autre langue,Raconte ein tiot conte in picard avéc des personnages du village.,non
+Traduction,M’exprimer dans une autre langue,"Wann ich dir so schwätz, verstehsch mich? Réponds en alsacien.",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Peux-tu m’aider à faire un plat avec ce que j’ai dans mon frigo : [ingrédient 1], [ingrédient 2], et [ingrédient 3] ?",oui
+Recettes,Découvrir une nouvelle recette de cuisine,Je voudrais découvrir une recette facile et rapide à base de [ingrédient]. Peux-tu m'en proposer une ?,oui
+Recettes,Découvrir une nouvelle recette de cuisine,Propose une recette gourmande de dessert vegan facile à faire,non
+Recettes,Découvrir une nouvelle recette de cuisine,"Pouvez-vous fournir une recette détaillée pour réaliser un Poulet Yassa, plat emblématique du Sénégal, en utilisant des ingrédients frais et des épices traditionnelles ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Quelle est la meilleure façon de préparer une bouillabaisse traditionnelle de Marseille, avec des poissons variés, des crustacés, et un bouillon parfumé aux herbes de Provence ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Comment cuisiner le Riz djon-djon, un plat haïtien à base de riz noir, champignons, crevettes et épices locales ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Pouvez-vous expliquer comment réaliser une fondue au fromage suisse, en choisissant les bons types de fromage et en respectant les techniques de cuisson ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Quelle est la recette traditionnelle des Accras de morue des Antilles, en combinant la morue salée, les épices créoles, et une pâte légère pour l'apéritif ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Comment préparer un Tiebou Dieune, le plat sénégalais, en choisissant les meilleurs poissons, légumes, et en maîtrisant la cuisson du riz ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Pouvez-vous fournir une recette complète pour réaliser un Ragoût de cabri réunionnais, en utilisant des épices locales et des techniques de cuisson traditionnelles ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Comment cuisiner un Mafé malien, un ragoût de viande ou de poulet à la sauce d’arachide, en respectant les traditions culinaires du Mali et en équilibrant les saveurs sucrées et salées ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Quelle est la meilleure méthode pour préparer une tarte flambée (flammekueche) alsacienne, en travaillant la pâte fine, et en choisissant les garnitures classiques comme l'oignon et le lard ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Pouvez-vous détailler une recette de Poulet aux arachides, un plat typique du Bénin, en utilisant du beurre de cacahuète, des épices, et des techniques de cuisson locales ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Comment préparer du Saka-Saka, un plat congolais à base de feuilles de manioc pilées, en ajoutant du poisson fumé et des épices ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Quelle est la recette classique de la Quiche lorraine, en utilisant une pâte brisée maison, des lardons, des œufs et de la crème?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Pouvez-vous expliquer comment réaliser un Foutou banane ivoirien, un accompagnement traditionnel à base de banane plantain et d’igname, souvent servi avec une sauce graine ou arachide ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Comment préparer un Gâteau basque, en choisissant entre la crème pâtissière et la confiture de cerises noires pour la garniture, et en respectant les techniques de pâtisserie du Pays Basque ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,Donne moi la recette de pâte à crêpes pour 6 personnes,non
+Recettes,Découvrir une nouvelle recette de cuisine,"Comment préparer une poutine québécoise, avec des frites croustillantes, du fromage en grains et une sauce brune savoureuse ?",non
+Recettes,Découvrir une nouvelle recette de cuisine,Rappelle moi la recette de la quiche lorraine et dis m'en plus sur l'histoire de ce plat (sois concis !),non
+Recettes,Découvrir une nouvelle recette de cuisine,Propose moi une bonne recette de poulet basquaise et raconte moi au passage l’histoire de ce plat,non
+Recettes,Découvrir une nouvelle recette de cuisine,"Je cherche des recettes à base de figue, peux-tu m’aider?",non
+Recettes,Découvrir une nouvelle recette de cuisine,"Nous sommes en octobre j’habite à Pointe à Pitre, propose moi une recette locale avec des fruits et légumes de saison",non
+Recommandations,"Proposer des idées de films, livres, musiques","Peux-tu me recommander des films sur le thème de [thème], avec un ton plutôt dramatique ?",oui
+Recommandations,"Proposer des idées de films, livres, musiques",Quelles sont les meilleures suggestions de films de science-fiction à regarder si j'aime les intrigues complexes ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Quelles lectures captivantes me conseilles-tu si je suis fan de thrillers psychologiques ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Peux-tu me proposer une playlist de musique pour me motiver à aller au sport ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Quels albums devrais-je écouter si je veux découvrir du jazz moderne ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Peux-tu me recommander un film qui mélange science-fiction et comédie ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Quels films se déroulant pendant les années 1950 me recommanderais-tu ?,non
+Recommandations,"Proposer des idées de films, livres, musiques","Si j'ai aimé le film [titre], quels autres films dans le même genre me conseilles-tu ?",oui
+Recommandations,"Proposer des idées de films, livres, musiques",Peux-tu me proposer des auteurs francophones à lire absolument ?,non
+Recommandations,"Proposer des idées de films, livres, musiques","Peux-tu recommander des films francophones qui traitent de la décolonisation en Afrique, en Asie ou aux Caraïbes, en offrant des perspectives historiques et critiques ?",non
+Recommandations,"Proposer des idées de films, livres, musiques","Quels sont les ouvrages majeurs de la littérature féministe écrits par des autrices francophones, qui explorent les enjeux de genre dans différents contextes culturels ?",non
+Recommandations,"Proposer des idées de films, livres, musiques",Peux-tu me suggérer des albums de musique fusion sénégalaise qui combinent des éléments de la musique traditionnelle avec des genres modernes comme le jazz ou le hip-hop ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Quels sont les films d'animation français qui ont été primés à l'international ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Pouvez-vous recommander des romans écrits par des auteurs francophones qui traitent de l’expérience de l’immigration en Europe ?,non
+Recommandations,"Proposer des idées de films, livres, musiques","Quelles sont les œuvres incontournables de la musique électronique belge, avec un focus sur les artistes qui ont influencé la scène musicale en Belgique et à l’international ?",non
+Recommandations,"Proposer des idées de films, livres, musiques",Quels films africains francophones ont remporté des prix dans des festivals internationaux ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Pouvez-vous me suggérer des recueils de poésie haïtienne contemporaine en précisant les thèmes explorés ?,non
+Recommandations,"Proposer des idées de films, livres, musiques","Peux-tu recommander des films classiques du cinéma suisse francophone, qui capturent les paysages, les histoires, et les questions sociales du pays ?",non
+Recommandations,"Proposer des idées de films, livres, musiques","Quels romans francophones belges mettent en lumière la diversité culturelle en Belgique, en explorant les identités multiples et les défis de la coexistence ?",non
+Recommandations,"Proposer des idées de films, livres, musiques","Peux-tu me suggérer des films francophones qui décrivent la vie en banlieue en France, en abordant des thèmes tels que l’identité, la marginalisation et la solidarité ?",non
+Recommandations,"Proposer des idées de films, livres, musiques",Peux-tu recommander des albums de rap francophone ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Quels sont les films belges qui traitent des questions d'immigration et d'intégration?,non
+Recommandations,"Proposer des idées de films, livres, musiques","Quelles sont les chansons ou albums marquants produits par des artistes de la diaspora africaine en France, qui reflètent les influences hybrides entre l’Afrique et l’Europe ?",non
+Recommandations,"Proposer des idées de films, livres, musiques",Peux-tu me suggérer des films qui explorent l’histoire coloniale dans les Antilles françaises ?,non
+Recommandations,"Proposer des idées de films, livres, musiques","Quels sont les livres influents écrits par des auteurs africains francophones, qui abordent des thèmes pertinents pour les jeunes d’aujourd’hui ?",non
+Recommandations,"Proposer des idées de films, livres, musiques",Je prévois une soirée cinéma en famille. Peux-tu me suggérer des films réconfortants et adaptés à tous les âges qui plairont à toute la famille ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Quelles références incontournables me recommandes-tu sur [ce sujet] ?,oui
+Recommandations,"Proposer des idées de films, livres, musiques",J’aime beaucoup la littérature. Quelles sont les classiques que je ne devrais pas manquer ?,non
+Recommandations,"Proposer des idées de films, livres, musiques",Je suis fan [d'un artiste ou d'un genre spécifique]. Peux-tu me fournir des recommandations d'artistes similaires ou complémentaires que je pourrais apprécier ?,oui
+Recommandations,"Proposer des idées de films, livres, musiques",J'ai envie de musique joyeuse et entraînante. Quelles sont les chansons ou les albums me conseilles-tu pour me remonter le moral ?,non
+Histoires,Raconter une histoire,"Écris une histoire en 100 mots, sans utiliser la lettre ""e"", où un enfant découvre un objet mystérieux dans le grenier de ses grands-parents.",non
+Histoires,Raconter une histoire,Raconte une légende urbaine contemporaine dans un quartier connu pour son histoire mystique (précise le quartier et la ville),non
+Histoires,Raconter une histoire,Imagine une histoire de 200 mots où un personnage doit faire face à un événement surnaturel dans une région rurale.,non
+Histoires,Raconter une histoire,Écris une histoire où un personnage découvre un lien mystérieux entre sa ville actuelle et une ville dans un autre pays francophone.,non
+Histoires,Raconter une histoire,"Raconte une histoire de 200 mots se déroulant en une seule journée, dans une grande ville, où chaque moment compte.",non
+Histoires,Raconter une histoire,Écris une histoire à la manière de Jules Verne où un groupe d'aventuriers découvre une terre inconnue sous l'océan.,non
+Histoires,Raconter une histoire,Raconte une histoire de 100 mots où un enfant découvre une ancienne tradition oubliée de son village.,non
+Histoires,Raconter une histoire,Raconte une histoire en 300 mots où le personnage principal découvre un objet qui change le cours de sa vie. L'objet doit avoir une signification particulière liée à une tradition locale.,non
+Histoires,Raconter une histoire,Imagine une histoire de 200 mots où une tempête force des voyageurs à se réfugier dans un lieu sacré pour une nuit.,non
+Histoires,Raconter une histoire,Écris une très courte nouvelle où une ancienne malédiction frappe une famille de génération en génération. Insère des éléments culturels spécifiques à une région précise.,non
+Histoires,Raconter une histoire,Raconte une aventure en vers de 200 mots où un oiseau courageux surmonte sa peur de voler.,non
+Histoires,Raconter une histoire,"Raconte une histoire de 200 mots, à la manière d'un conte, où un enfant découvre la sagesse cachée dans un baobab.",non
+Histoires,Raconter une histoire,Imagine un conte pour enfants où un personnage doit choisir entre deux chemins lors d'un rituel initiatique.,non
+Histoires,Raconter une histoire,"Imagine une légende en vers où un enfant inuit apprend à chasser avec respect pour la nature, dans le Grand Nord.",non
+Histoires,Raconter une histoire,Raconte une histoire courte de 200 mots où un chat errant trouve un foyer aimant. Écris-la à la manière de La Fontaine.,non
+Histoires,Raconter une histoire,"Raconte une histoire de 200 mots, à la manière d'un conte de fées européen, où une princesse doit résoudre trois énigmes pour libérer un royaume.",non
+Histoires,Raconter une histoire,"Écris une histoire en vers de 150 mots où un petit dragon découvre qu'il peut cracher du feu, mais apprend à l'utiliser avec précaution.",non
+Histoires,Raconter une histoire,Raconte une légende en prose de 150 mots où un jeune marin apprend à naviguer en suivant les étoiles.,non
+Histoires,Raconter une histoire,Ecris un haïku à la manière de Paul Claudel.,non
+Histoires,Raconter une histoire,Écris une histoire en prose où chaque phrase contient exactement dix mots et contredit la phrase précédente.,non
+Histoires,Raconter une histoire,"Imagine un poème où chaque vers est construit avec des mots commençant par une seule lettre de l'alphabet, en suivant l'ordre alphabétique, racontant une quête héroïque.",non
+Histoires,Raconter une histoire,"Raconte une histoire en 200 mots, à la manière d’un conte des Mille et Une Nuits, où un génie exauce un vœu inattendu.",non
+Histoires,Raconter une histoire,Écris une histoire à la manière de Georges Perec sur un personnage qui revient toujours au point de départ.,non
+Histoires,Raconter une histoire,"Imagine une histoire en vers libres, où les phrases alternent entre des mots français et des mots étrangers de ton choix, racontant la rencontre entre deux personnages de cultures différentes.",non
+Histoires,Raconter une histoire,"Écris une histoire où chaque paragraphe doit contenir exactement cinq phrases, chacune de longueur décroissante, racontant la découverte d'une cité perdue.",non
+Histoires,Raconter une histoire,Écris une histoire où un personnage découvre un pays où tout est minuscule à la manière de Claude Ponti avec un style poétique et des mots inventés.,non
+Histoires,Raconter une histoire,Raconte une histoire de science-fiction où la technologie a radicalement transformé une coutume ancestrale.,non
+Histoires,Raconter une histoire,Raconte une histoire à la manière de Louis Ferdinand Céline où un personnage questionne les normes sociales de son époque.,non
+Histoires,Raconter une histoire,Raconte une histoire de science-fiction où la technologie a radicalement transformé une coutume ancestrale. Ecris à la manière de Nathalie Sarraute.,non
+Histoires,Raconter une histoire,Imagine une histoire à la manière d’un conte africain où la nature joue un rôle central dans le destin du personnage.,non
+Histoires,Raconter une histoire,Écris une histoire où un personnage rencontre un double de lui-même dans un lieu symbolique de son enfance.,non
+Histoires,Raconter une histoire,Raconte l’histoire d’une rencontre improbable entre un poète haïtien et une sirène dans les eaux de Jacmel.,non
+Histoires,Raconter une histoire,Imagine une histoire à raconter aux enfants le soir pour s’endormir où un enfant wallon découvre un livre magique dans la forêt d'Ardenne.,non
+Histoires,Raconter une histoire,Raconte l’histoire d’un cuisinier tunisien qui prépare un repas qui a le pouvoir de réaliser les vœux de ceux qui le mangent.,non
+Histoires,Raconter une histoire,Imagine une histoire où un adolescent mauricien découvre qu’il peut communiquer avec les esprits de ses ancêtres grâce à un talisman.,non
+Histoires,Raconter une histoire,Imagine une histoire où un ingénieur invente une machine qui peut recréer des souvenirs oubliés.,non
+Histoires,Raconter une histoire,Ecris moi une histoire en vers pour endormir mon fils de cinq ans ce soir.,non
+Histoires,Raconter une histoire,Ecris moi une fable en rimes pour endormir ma fille de sept ans ce soir.,non
+Histoires,Raconter une histoire,"Tu es conteur professionnel, crée une histoire de trois minutes à raconter à mes deux enfants en bas âges. Utilise un langage riche et imaginatif et des figures de style pour stimuler l’imagination et susciter des émotions.",non
+Histoires,Raconter une histoire,Je suis parent et je cherche une histoire du soir à raconter à mes enfants. Choisis trois objets sans rapport apparent et utilise-les comme base pour créer une histoire de 100 mots.,non
+Histoires,Raconter une histoire,"Tu es écrivain de fantasy, élabore un système magique avec des règles et des limitations spécifiques, puis décris comment cette magie façonne la société dans ce monde imaginaire.",non

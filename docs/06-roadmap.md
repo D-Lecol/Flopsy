@@ -16,7 +16,7 @@ gantt
         Décisions, contrat JSON, prototype carte, outillage, boucle: s0, 2026-09-28, 5d
     section S1 Moteur
         Règles, phases, cartes, tests: s1a, 2026-10-05, 8d
-        Sources et extraction Compar: IA :s1b, after s1a, 2d
+        Sources et extraction ComparIA: s1b, after s1a, 2d
     section S2 Interface
         Maquette, carte, construction, pilotage, écrans: s2a, 2026-10-19, 9d
         Écriture des cartes-requêtes: s2b, after s2a, 1d
@@ -93,7 +93,7 @@ provisoires.
 | Risque                                           | Signal d'alerte                                                   | Parade                                                                     |
 |--------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------|
 | L'équilibrage prend plus de temps que prévu      | Les parties du playtest 1 durent moins de 8 min ou plus de 20 min | Utiliser la marge ; tout est dans `params.json`, donc aucun code à toucher |
-| Rendu de la carte trop lent ou trop long à coder | Le prototype T03 n'atteint pas 60 images/s, ou T23 dépasse 2 j    | Passer à une grille 2D vue du dessus                                       |
+| Rendu de la carte trop lent ou trop long à coder | Le prototype T03 n'atteint pas 60 images/s, ou T23 dépasse 2 j    | Simplifier les modèles 3D et regrouper davantage les bâtiments par lots    |
 | Écriture des cartes trop longue                  | T17 n'est pas fini en fin de S2                                   | Descendre à 30 cartes, en gardant toutes les catégories                    |
 | Retard sur le moteur                             | T09 n'est pas fini le 12 octobre                                  | Simplifier la formule de confiance (2 termes au lieu de 4)                 |
 | Imprévu (malade, autre projet)                   | Plus d'1 jour de retard sur un jalon                              | Marge de 3,5 j ; ensuite, couper T31 (bilan) puis T13 (événements)         |

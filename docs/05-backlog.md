@@ -34,12 +34,12 @@ Un retard sur **T05, T09, T23 ou T19** décale toute la suite : ce sont les tâc
 
 ## Lot A — Socle (3,5 j)
 
-| ID  | Tâche                                                                                                            | Est. | Dépend de | Terminé quand                                                                                         | Sprint |
-|-----|------------------------------------------------------------------------------------------------------------------|-----:|-----------|-------------------------------------------------------------------------------------------------------|:------:|
-| T01 | Valider les décisions de jeu ouvertes ([chapitre 2, section 2.13](02-logique-du-jeu.md#213-décisions-à-valider)) |    1 | –         | Plus aucune « 🟡 Proposition » dans le chapitre 2                                                     |   S0   |
-| T02 | Écrire le contrat de données JSON et un jeu de fausses données                                                   |  0,5 | T01       | Les 5 fichiers de `public/data/` existent avec leurs types TypeScript et un exemple valide            |   S0   |
-| T03 | Prototyper la carte isométrique et choisir la techno (Canvas 2D ou PixiJS)                                       |    1 | –         | Une grille de 20 × 20 tuiles tourne à 60 images/s sur tablette ; le choix est noté dans le chapitre 4 |   S0   |
-| T04 | Outiller le dépôt : TypeScript strict, ESLint, Vitest, CI, board GitHub Projects                                 |    1 | –         | Une PR lance lint et tests et obtient sa prévisualisation Vercel ; les 39 tâches sont sur le board    |   S0   |
+| ID  | Tâche                                                                                                            | Est. | Dépend de | Terminé quand                                                                                      | Sprint |
+|-----|------------------------------------------------------------------------------------------------------------------|-----:|-----------|----------------------------------------------------------------------------------------------------|:------:|
+| T01 | Valider les décisions de jeu ouvertes ([chapitre 2, section 2.13](02-logique-du-jeu.md#213-décisions-à-valider)) |    1 | –         | Plus aucune « 🟡 Proposition » dans le chapitre 2                                                  |   S0   |
+| T02 | Écrire le contrat de données JSON et un jeu de fausses données                                                   |  0,5 | T01       | Les 5 fichiers de `public/data/` existent avec leurs types TypeScript et un exemple valide         |   S0   |
+| T03 | Prototyper la carte isométrique en Three.js                                                                      |    1 | –         | Une grille de 20 × 20 tuiles tourne à 60 images/s sur tablette                                     |   S0   |
+| T04 | Outiller le dépôt : TypeScript strict, ESLint, Vitest, CI, board GitHub Projects                                 |    1 | –         | Une PR lance lint et tests et obtient sa prévisualisation Vercel ; les 39 tâches sont sur le board |   S0   |
 
 ## Lot B — Moteur (10,5 j)
 
@@ -58,15 +58,15 @@ Un retard sur **T05, T09, T23 ou T19** décale toute la suite : ce sont les tâc
 
 ## Lot C — Données (7,5 j)
 
-| ID  | Tâche                                                                                                        | Est. | Dépend de | Terminé quand                                                                                              | Sprint |
-|-----|--------------------------------------------------------------------------------------------------------------|-----:|-----------|------------------------------------------------------------------------------------------------------------|:------:|
-| T15 | Collecter les sources, vérifier les licences, remplir `sources.json`                                         |    1 | T02       | Chaque paramètre a sa source, sa licence, son année et sa transformation                                   |   S1   |
-| T16 | Compar:IA : requêtes DuckDB (parts par catégorie, fourchettes de kWh) et présélection d'environ 150 requêtes |    1 | T15       | Un CSV de statistiques par catégorie et un CSV de requêtes présélectionnées existent                       |   S1   |
-| T17 | Écrire environ 50 cartes-requêtes à partir de la présélection                                                |    1 | T16       | `cards.json` contient au moins 50 cartes, toutes catégories couvertes, chacune avec sa référence Compar:IA |   S2   |
-| T18 | Script `data/build.py` (brut → `params.json`, `sources.json`) et notebook                                    |  1,5 | T15, T16  | Une seule commande regénère tous les JSON ; le notebook s'exécute de bout en bout                          |   S3   |
-| T19 | Calibrer : calcul par utilisateur, MW et métaux par bâtiment, échelle, coefficients de confiance             |  1,5 | T14, T18  | Une partie automatique dure 10 à 15 min et les proportions réelles sont respectées                         |   S3   |
-| T20 | Rédiger les textes sourcés : écrans de fin, fiches des secrets, hypothèses et limites                        |    1 | T15       | 5 écrans de fin et au moins 8 fiches rédigés, chacun avec sa source                                        |   S3   |
-| T21 | Publier les cartes et les paramètres sur data.gouv.fr                                                        |  0,5 | T17, T19  | Le jeu de données est en ligne, avec un lien depuis les crédits du jeu                                     |   S4   |
+| ID  | Tâche                                                                                            | Est. | Dépend de | Terminé quand                                                                                              | Sprint |
+|-----|--------------------------------------------------------------------------------------------------|-----:|-----------|------------------------------------------------------------------------------------------------------------|:------:|
+| T15 | Collecter les sources, vérifier les licences, remplir `sources.json`                             |    1 | T02       | Chaque paramètre a sa source, sa licence, son année et sa transformation                                   |   S1   |
+| T16 | Compar:IA : lancer les scripts 01 à 03 (prompts suggérés, énergie par modèle, conversations)     |    1 | T15       | Les 5 CSV de `data/out/` existent, avec les vrais chiffres du parquet                                      |   S1   |
+| T17 | Compléter les cartes-requêtes (18 déjà écrites → environ 50) à partir des prompts suggérés       |    1 | T16       | `cards.json` contient au moins 50 cartes, toutes catégories couvertes, chacune avec sa référence Compar:IA |   S2   |
+| T18 | Finir `05_build_params.py` (brut → `params.json`, `sources.json`) et écrire le notebook          |  1,5 | T15, T16  | Une seule commande regénère tous les JSON ; le notebook s'exécute de bout en bout                          |   S3   |
+| T19 | Calibrer : calcul par utilisateur, MW et métaux par bâtiment, échelle, coefficients de confiance |  1,5 | T14, T18  | Une partie automatique dure 10 à 15 min et les proportions réelles sont respectées                         |   S3   |
+| T20 | Rédiger les textes sourcés : écrans de fin, fiches des secrets, hypothèses et limites            |    1 | T15       | 5 écrans de fin et au moins 8 fiches rédigés, chacun avec sa source                                        |   S3   |
+| T21 | Publier les cartes et les paramètres sur data.gouv.fr                                            |  0,5 | T17, T19  | Le jeu de données est en ligne, avec un lien depuis les crédits du jeu                                     |   S4   |
 
 ## Lot D — Interface (13 j)
 

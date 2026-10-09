@@ -1,0 +1,70 @@
+{
+  "version": "2026-10-09",
+  "scale": {
+    "population": 10000,
+    "note": "planète miniature : population réduite, proportions réelles conservées (docs/03-donnees.md)"
+  },
+  "time": {
+    "tick_months": 1,
+    "tick_seconds": 1.5,
+    "start_year": 2023
+  },
+  "real_ratios": {
+    "kw_per_inhabitant": 0.771,
+    "datacenter_share_today": 0.0086,
+    "datacenter_share_2035": 0.0814,
+    "metal_reserve_years": 218,
+    "metal_china_production_share": 0.69,
+    "nuclear_share": 0.68
+  },
+  "city": {
+    "population": 10000,
+    "power_mw": 7.71,
+    "metals_t_per_year": null
+  },
+  "datacenter": {
+    "start_power_mw": 0.067,
+    "compute_pflops": null,
+    "metals_t": null
+  },
+  "plant": {
+    "power_mw": null,
+    "metals_t": null
+  },
+  "grid": {
+    "loss_pct": null,
+    "upgrade_loss_pct": null
+  },
+  "metals": {
+    "initial_stock_t": null
+  },
+  "adoption": {
+    "curve": [
+      [
+        2023,
+        0.2
+      ],
+      [
+        2025,
+        0.48
+      ]
+    ]
+  },
+  "trust": {
+    "initial": 0.48,
+    "a": null,
+    "b": null,
+    "c": null,
+    "d": null
+  },
+  "usage_categories": [],
+  "model_energy_wh_per_mtok": {
+    "taille:XS": 89.0,
+    "taille:S": 115.0,
+    "taille:M": 658.0,
+    "taille:L": 1524.0,
+    "taille:XL": 3979.0,
+    "raisonnement:non": 244.0,
+    "raisonnement:oui": 2506.0
+  }
+}

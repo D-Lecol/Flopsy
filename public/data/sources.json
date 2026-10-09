@@ -1,0 +1,83 @@
+[
+  {
+    "param": "city.power_mw",
+    "data": "Consommation d'électricité 2025 (451 TWh) ÷ population",
+    "source": "RTE, Bilan électrique 2025 ; INSEE, population au 1er janvier 2026",
+    "url": "https://assets.rte-france.com/prod/public/2026-02/Bilan-electrique-2025-principaux-resultats.pdf",
+    "license": "Licence Ouverte 2.0",
+    "year": 2025,
+    "transform": "TWh ÷ habitants ÷ 8760 h × population du jeu"
+  },
+  {
+    "param": "real_ratios.datacenter_share_today",
+    "data": "Consommation des centres de données > 1 GWh (3,9 TWh)",
+    "source": "SDES, La consommation d'électricité des centres de données entre 2018 et 2023",
+    "url": "https://www.statistiques.developpement-durable.gouv.fr/la-consommation-delectricite-des-centres-de-donnees-entre-2018-et-2023",
+    "license": "À vérifier (données publiques SDES)",
+    "year": 2023,
+    "transform": "3,9 TWh ÷ 451 TWh"
+  },
+  {
+    "param": "real_ratios.datacenter_share_2035",
+    "data": "Scénario tendanciel 2035 : 36,7 TWh en France",
+    "source": "ADEME, prospective centres de données (janvier 2026)",
+    "url": "https://www.connaissancedesenergies.org/data-centers-en-france-quelle-consommation-delectricite-venir",
+    "license": "À vérifier",
+    "year": 2026,
+    "transform": "36,7 TWh ÷ 451 TWh (conso supposée stable)"
+  },
+  {
+    "param": "real_ratios.metal_reserve_years",
+    "data": "Réserves (> 85 Mt) et production 2025 (390 kt) de terres rares",
+    "source": "USGS, Mineral Commodity Summaries 2026",
+    "url": "https://pubs.usgs.gov/publication/mcs2026",
+    "license": "Domaine public",
+    "year": 2025,
+    "transform": "réserves ÷ production annuelle"
+  },
+  {
+    "param": "adoption.curve",
+    "data": "Part des Français (12 ans et +) utilisant l'IA générative",
+    "source": "Baromètre du numérique (CRÉDOC, Arcep, CGE, ANCT, Arcom)",
+    "url": "https://www.data.gouv.fr/datasets/barometre-du-numerique",
+    "license": "ODbL",
+    "year": 2025,
+    "transform": "aucune (interpolation entre les points)"
+  },
+  {
+    "param": "trust.initial",
+    "data": "52 % des Français n'ont pas confiance dans l'IA",
+    "source": "Baromètre du numérique, édition 2026",
+    "url": "https://www.arcep.fr/uploads/tx_gspublication/barometre-du-numerique-edition-2026_PRESENTATION.pdf",
+    "license": "ODbL",
+    "year": 2025,
+    "transform": "1 − 0,52"
+  },
+  {
+    "param": "usage_categories",
+    "data": "Catégories et énergie des conversations",
+    "source": "Compar:IA, jeu comparIA-conversations",
+    "url": "https://www.data.gouv.fr/datasets/compar-ia",
+    "license": "Licence Ouverte 2.0 (Etalab)",
+    "year": 2026,
+    "transform": "data/scripts/03_comparia_conversations.py"
+  },
+  {
+    "param": "model_energy_wh_per_mtok",
+    "data": "Énergie estimée par modèle (EcoLogits)",
+    "source": "Compar:IA, dépôt GitHub (data/legacy/generated-models.json)",
+    "url": "https://github.com/betagouv/ComparIA",
+    "license": "Apache 2.0",
+    "year": 2026,
+    "transform": "data/scripts/02_comparia_energie_modeles.py (médiane par taille)"
+  },
+  {
+    "param": "cards",
+    "data": "Prompts suggérés aux visiteurs de Compar:IA",
+    "source": "Compar:IA, dépôt GitHub (utils/suggestions/fr.json)",
+    "url": "https://github.com/betagouv/ComparIA",
+    "license": "Apache 2.0",
+    "year": 2026,
+    "transform": "data/scripts/01_comparia_suggestions.py puis réécriture en cartes"
+  }
+]
